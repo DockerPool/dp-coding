@@ -1,3 +1,4 @@
 #!/bin/bash
 /usr/sbin/sshd &
-python /dockerpool/index.py
+cd /dockerpool
+python index.py

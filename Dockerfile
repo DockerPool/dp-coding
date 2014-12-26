@@ -24,13 +24,12 @@ RUN chmod 755 ./*.sh
 
 
 #Add tornadomail by handle
-RUN apt-get install -y git
 RUN bash /install_tornadomail.sh
 
 
 VOLUME /dockerpool
 
-EXPOSE 3303
+EXPOSE 3003
 EXPOSE 22
 
 CMD ["/run.sh"]
