@@ -23,6 +23,7 @@ RUN chmod 755 ./*.sh
 
 
 #Add tornadomail by handle
+RUN apt-get install -y git
 RUN bash /install_tornadomail.sh
 
 
