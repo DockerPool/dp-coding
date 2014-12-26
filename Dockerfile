@@ -13,7 +13,6 @@ RUN \
   rm -rf /var/lib/apt/lists/*
 
 ADD smtp.py /smtp.py
-ADD tornadomail /tornadomail
 
 
 
